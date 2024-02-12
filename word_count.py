@@ -126,7 +126,7 @@ def create_ouptput_directory(output_directory):
 #
 def save_output(output_directory, sequence):
     #cocatenar con el nombre del drecctorio y del archvo
-    filename = os.path.join (output_directory + "part-000")
+    filename = os.path.join (output_directory + "part-00000")
 
     with open(filename, "w") as f:
         for key, value in sequence: 
